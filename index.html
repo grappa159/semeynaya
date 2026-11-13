@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Семейная столовая — завтраки, обеды и банкеты на Лодыгина, 9</title>
+  <meta name="description" content="Кафе-столовая «Семейная» в Перми с 2007 года: домашние завтраки и обеды, свежая выпечка, банкеты, выпускные и поминальные обеды. Лодыгина, 9, 2 этаж.">
+  <!-- Демо-версия: не индексировать до согласования с владельцем -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#fff7ea">
+  <meta property="og:title" content="Семейная столовая — вкусно и сытно, как дома">
+  <meta property="og:image" content="img/platters.jpg">
+  <link rel="icon" href="img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container header__row">
+    <a href="#top" class="brand" aria-label="Семейная столовая — на главную">
+      <img src="img/logo.png" alt="Семейная столовая" width="62" height="50">
+    </a>
+    <nav class="nav" id="nav" aria-label="Основное меню">
+      <a href="#food">Что едим</a>
+      <a href="#today">Меню дня</a>
+      <a href="#events">Банкеты</a>
+      <a href="#way">Как найти</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="header__phone" href="tel:+79091040278">+7 (909) 104-02-78</a>
+    <button class="btn btn--red btn--sm" data-order>Заказать банкет</button>
+    <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero__grid">
+      <div class="hero__text">
+        <p class="pill"><span class="dot" id="openDot"></span><span id="openText">Пн–Пт с 9:00</span></p>
+        <h1>Вкусно и сытно — <span class="hl">как дома</span></h1>
+        <p class="hero__lead">Кафе-столовая «Семейная» на Лодыгина, 9. Горячие завтраки и обеды, свежая выпечка и банкеты для своих. Кормим Пермь с 2007 года.</p>
+        <div class="hero__actions">
+          <a class="btn btn--blue" href="#today">Что сегодня в меню?</a>
+          <button class="btn btn--ghost" data-order>Заказать банкет</button>
+        </div>
+        <ul class="hero__facts">
+          <li><b>≈ 220 ₽</b><span>средний чек</span></li>
+          <li><b>с 2007</b><span>года работаем</span></li>
+          <li><b>2 этаж</b><span>ул. Лодыгина, 9</span></li>
+        </ul>
+      </div>
+      <div class="hero__collage" aria-hidden="true">
+        <figure class="ph ph--1"><img src="img/salad-lunch.jpg" alt=""></figure>
+        <figure class="ph ph--2"><img src="img/cake.jpg" alt=""></figure>
+        <figure class="ph ph--3"><img src="img/hall.jpg" alt=""></figure>
+        <div class="sticker">с&nbsp;2007<br><small>года</small></div>
+        <div class="chalk-note">капучино — 70 ₽</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true"><div class="marquee__track">
+    <span>Завтраки</span><i>✦</i><span>Обеды</span><i>✦</i><span>Выпечка</span><i>✦</i><span>Напитки</span><i>✦</i><span>Банкеты</span><i>✦</i><span>Выпускные</span><i>✦</i><span>Кейтеринг</span><i>✦</i><span>Еда с собой</span><i>✦</i>
+    <span>Завтраки</span><i>✦</i><span>Обеды</span><i>✦</i><span>Выпечка</span><i>✦</i><span>Напитки</span><i>✦</i><span>Банкеты</span><i>✦</i><span>Выпускные</span><i>✦</i><span>Кейтеринг</span><i>✦</i><span>Еда с собой</span><i>✦</i>
+  </div></div>
+
+  <!-- FOOD -->
+  <section class="section" id="food">
+    <div class="container">
+      <div class="head">
+        <p class="kicker">Что у нас есть</p>
+        <h2>Еда, за которой <span class="hl">приходят каждый день</span></h2>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <img src="img/dish.jpg" alt="Горячее блюдо" loading="lazy">
+          <div class="card__body"><span class="card__emoji">☀️</span><h3>Завтраки</h3><p>Горячий завтрак перед работой и кофе с собой, если торопитесь.</p></div>
+        </article>
+        <article class="card">
+          <img src="img/lunch-fish.jpg" alt="Обед: рыба и салат" loading="lazy">
+          <div class="card__body"><span class="card__emoji">🍲</span><h3>Обеды</h3><p>Первое, второе, гарнир и салат на раздаче. Сытно, быстро и по честной цене.</p></div>
+        </article>
+        <article class="card">
+          <img src="img/cake.jpg" alt="Торт с клубникой" loading="lazy">
+          <div class="card__body"><span class="card__emoji">🥧</span><h3>Выпечка</h3><p>Пироги, булочки и торты к чаю и на праздник. Пироги особенно хвалят в отзывах.</p></div>
+        </article>
+        <article class="card card--chalk">
+          <div class="card__body">
+            <span class="card__emoji">☕</span><h3>Напитки</h3>
+            <ul class="chalk-list">
+              <li><span>Американо</span><b>50 ₽</b></li>
+              <li><span>Капучино</span><b>70 ₽</b></li>
+              <li><span>Латте</span><b>80 ₽</b></li>
+              <li><span>Компот и кисель</span><b>в обед</b></li>
+            </ul>
+            <p class="small">Кофе можно взять с собой.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TODAY (chalkboard) -->
+  <section class="section today" id="today">
+    <div class="container today__grid">
+      <div class="board">
+        <p class="board__title">Сегодня на раздаче</p>
+        <p class="board__sub">Меню меняется каждый день, вот что у нас бывает:</p>
+        <div class="board__cols">
+          <div>
+            <h4>Первое</h4>
+            <ul><li>суп-лапша</li><li>супы дня</li></ul>
+            <h4>Салаты</h4>
+            <ul><li>Оливье</li><li>овощные салаты</li><li>капустный салат</li></ul>
+          </div>
+          <div>
+            <h4>Второе</h4>
+            <ul><li>куриное филе в сухарях</li><li>куриная котлета</li><li>куриный рулет с сыром</li><li>бифштекс с яйцом</li></ul>
+            <h4>Гарниры</h4>
+            <ul><li>пюре</li><li>картофель с укропом</li><li>рис</li></ul>
+          </div>
+        </div>
+        <p class="board__foot">+ пироги, компот, кисель</p>
+      </div>
+      <div class="today__text">
+        <p class="kicker">Меню дня</p>
+        <h2>Узнайте, что сегодня, <span class="hl">не выходя из офиса</span></h2>
+        <p class="lead">Напишите нам в WhatsApp, и мы пришлём меню дня. Можно сразу заказать еду с собой.</p>
+        <div class="today__actions">
+          <button class="btn btn--green" id="askMenu">Спросить меню в WhatsApp</button>
+          <a class="btn btn--ghost" href="tel:+79091040278">Позвонить</a>
+        </div>
+        <ul class="ticks">
+          <li>Еда навынос и доставка</li>
+          <li>Оплата картой, наличными или переводом</li>
+          <li>Кейтеринг и фуршеты с выездом</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENTS -->
+  <section class="section events" id="events">
+    <div class="container">
+      <div class="head head--center">
+        <p class="kicker">Праздники и события</p>
+        <h2>Накроем стол <span class="hl">на любой повод</span></h2>
+        <p class="lead">Собственный банкетный зал на 2 этаже, домашняя кухня и выпечка. Подберём меню и накроем столы.</p>
+      </div>
+      <div class="events__grid">
+        <article class="ev ev--big">
+          <img src="img/platters.jpg" alt="Мясная и овощная нарезка" loading="lazy">
+          <div><h3>Банкеты и дни рождения</h3><p>Горячее, нарезки, салаты, фрукты и торт. Подберём меню под бюджет.</p></div>
+        </article>
+        <article class="ev">
+          <img src="img/banquet-table.jpg" alt="Накрытый стол" loading="lazy">
+          <div><h3>Выпускные</h3><p>Праздничный стол для выпускников и родителей.</p></div>
+        </article>
+        <article class="ev">
+          <img src="img/canape.jpg" alt="Канапе" loading="lazy">
+          <div><h3>Фуршеты и кейтеринг</h3><p>Канапе, тарталетки, сырные и фруктовые тарелки, в том числе с выездом.</p></div>
+        </article>
+        <article class="ev ev--soft">
+          <div><h3>Поминальные обеды</h3><p>Поможем бережно и без лишних хлопот: накроем столы, приготовим традиционное меню и пироги.</p></div>
+        </article>
+      </div>
+
+      <div class="order">
+        <div class="order__text">
+          <h3>Посчитаем ваш банкет</h3>
+          <p>Оставьте заявку, она придёт нам в WhatsApp. Перезвоним и предложим меню.</p>
+          <blockquote>«Девочки приготовили всё очень вкусно… Пироги вообще очень вкусные. Накрыли нам столы, всё везде чисто»<cite>Марина, отзыв на Яндекс Картах</cite></blockquote>
+        </div>
+        <form class="form" id="orderForm">
+          <label>Повод
+            <select name="type"><option>Банкет / день рождения</option><option>Выпускной</option><option>Фуршет / кейтеринг</option><option>Поминальный обед</option><option>Доставка / еда с собой</option><option>Другое</option></select>
+          </label>
+          <div class="form__row">
+            <label>Дата<input type="date" name="date" required></label>
+            <label>Гостей<input type="number" name="guests" min="2" max="200" value="15" required></label>
+          </div>
+          <label>Имя<input name="name" required autocomplete="given-name"></label>
+          <label>Телефон<input name="phone" type="tel" required autocomplete="tel" placeholder="+7"></label>
+          <button class="btn btn--red btn--full" type="submit">Отправить заявку</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section gallery">
+    <div class="container">
+      <div class="head">
+        <p class="kicker">Фото</p>
+        <h2>Так у нас <span class="hl">выглядит праздник</span></h2>
+      </div>
+      <div class="masonry" id="masonry">
+        <img src="img/fruit.jpg" alt="Фруктовая тарелка" loading="lazy">
+        <img src="img/hall.jpg" alt="Зал столовой" loading="lazy">
+        <img src="img/shrimp.jpg" alt="Креветки на шпажках" loading="lazy">
+        <img src="img/cheese.jpg" alt="Сырная тарелка" loading="lazy">
+        <img src="img/banquet-glass.jpg" alt="Сервировка" loading="lazy">
+        <img src="img/salad.jpg" alt="Салат" loading="lazy">
+        <img src="img/buffet.jpg" alt="Фуршет" loading="lazy">
+        <img src="img/fruit-plate.jpg" alt="Десертный стол" loading="lazy">
+        <img src="img/counter.jpg" alt="Раздача" loading="lazy">
+        <img src="img/cheese-fruit.jpg" alt="Сыр и фрукты" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- WAY -->
+  <section class="section way" id="way">
+    <div class="container">
+      <div class="head">
+        <p class="kicker">Как нас найти</p>
+        <h2>Мы на <span class="hl">втором этаже</span>, вот как дойти</h2>
+      </div>
+      <ol class="steps">
+        <li><img src="img/facade.jpg" alt="Вход в здание с вывеской" loading="lazy"><div><b>1</b><p>Ищите синий вход с вывеской «Семейная столовая» на Лодыгина, 9.</p></div></li>
+        <li><img src="img/lift.jpg" alt="Указатель на лифт" loading="lazy"><div><b>2</b><p>Поднимитесь на 2 этаж на лифте или по лестнице.</p></div></li>
+        <li><img src="img/door.jpg" alt="Дверь столовой" loading="lazy"><div><b>3</b><p>Наша дверь: «Кафе · Столовая. Завтраки, обеды, выпечка».</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CONTACTS -->
+  <section class="section contacts" id="contacts">
+    <div class="container contacts__grid">
+      <div class="contacts__card">
+        <p class="kicker">Контакты</p>
+        <h2>Приходите <span class="hl">обедать</span></h2>
+        <dl class="info">
+          <dt>Адрес</dt><dd>Пермь, ул. Лодыгина, 9, 2 этаж</dd>
+          <dt>Часы</dt><dd id="hoursList"></dd>
+          <dt>Телефон</dt><dd><a href="tel:+79091040278">+7 (909) 104-02-78</a></dd>
+          <dt>Банкеты</dt><dd><a href="tel:+79222417113">+7 (922) 241-71-13</a> · <a href="tel:+79194421577">+7 (919) 442-15-77</a></dd>
+        </dl>
+        <div class="socials">
+          <a class="btn btn--green btn--sm" href="https://wa.me/79222417113" target="_blank" rel="noopener">WhatsApp</a>
+          <a class="btn btn--violet btn--sm" href="https://viber.click/79222417113" target="_blank" rel="noopener">Viber</a>
+          <a class="btn btn--blue btn--sm" href="https://vk.ru/familybakery59" target="_blank" rel="noopener">ВКонтакте</a>
+        </div>
+      </div>
+      <div class="map">
+        <a href="https://yandex.ru/maps/org/semeynaya_stolovaya/233738548707/" target="_blank" rel="noopener" aria-label="Открыть на Яндекс Картах">
+          <img src="img/map.png" alt="Семейная столовая на карте: ул. Лодыгина, 9" width="650" height="450" loading="lazy">
+          <span class="map__pin" aria-hidden="true"><img src="img/logo.png" alt=""></span>
+        </a>
+        <div class="map__actions">
+          <a class="btn btn--red btn--sm" href="https://yandex.ru/maps/?rtext=~57.966752%2C56.237099&rtt=auto" target="_blank" rel="noopener">Построить маршрут</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__row">
+    <img src="img/logo.png" alt="Семейная столовая" width="56" height="45">
+    <p>© 2026 Кафе-столовая «Семейная» · Пермь, ул. Лодыгина, 9, 2 этаж</p>
+    <a class="btn btn--blue btn--sm" href="tel:+79091040278">Позвонить</a>
+  </div>
+</footer>
+
+<!-- Демо-плашка разработчика (убрать после согласования) -->
+<div class="demo-badge" id="demoBadge">
+  <span>Демо-версия сайта</span>
+  <a id="devLink" target="_blank" rel="noopener"></a>
+  <button aria-label="Скрыть" id="demoClose">×</button>
+</div>
+
+<div class="lightbox" id="lightbox" hidden><img alt=""><button aria-label="Закрыть">×</button></div>
+
+<script src="app.js"></script>
+</body>
+</html>
